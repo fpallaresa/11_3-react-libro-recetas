@@ -1,0 +1,50 @@
+.recipes-selected {
+    width: calc(33.33% - 25px);
+}
+
+.recipes-selected__image {
+    width: 100%;
+}
+
+.recipes-selected__name {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.recipes-selected__people {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+.recipes-selected__button {
+    border: 0;
+    border-radius: 6px;
+    padding: 5px 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.recipes-selected__button:hover {
+    background: #d2d2d2;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+}
+
+th {
+    border-bottom: 1px solid #9f9f9f;
+    padding: 5px 0;
+}
+
+tr {
+    border-bottom: 1px solid #d2d2d2;
+    padding: 5px 0;
+}
+
+td {
+    width: 100%;
+    padding: 10px 5px;
+    border-bottom: 1px solid #d2d2d2;
+}
