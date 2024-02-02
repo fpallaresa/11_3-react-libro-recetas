@@ -19,8 +19,9 @@ const RecipesList = React.memo(() => {
         fetch(API_URL)
             .then((response) => response.json())
             .then((data) => {
-            setRecipesList(data);
-            });
+            setRecipesList(data)
+            })
+            .catch((error) => console.error("Error:", error));
     };
 
     /*const addNewRecipe = (event) => {
